@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown</title>
+    <url>/2022/03/09/Markdown/</url>
+    <content><![CDATA[<pre><code>                            Markdown笔记
+</code></pre>
+<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><pre><code>1. ``` + 语言
+</code></pre>
+<h4 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h4><pre><code>1. #   ---&gt;   一级标题
+
+2. ##   ---&gt;   二级标题
+
+3. ###   ---&gt;   三级标题
+
+4. ####   ---&gt;   四级标题
+
+5. #####   ---&gt;   五级标题
+
+6. ######   ---&gt;   六级标题
+</code></pre>
+<h4 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h4><pre><code>1. **【xxx】**   ---&gt;   给 xxx 加粗
+
+2. ==【xxx】==   ---&gt;   使 xxx 高亮显示
+
+3. ~~【xxx】~~   ---&gt;   使 xxx 显示删除线
+
+4. *【xxx】*   ---&gt;   使 xxx 斜体显示
+</code></pre>
+<h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><pre><code>1. &gt;xxx   ---&gt;   一级引用
+
+2. &gt;&gt;xxx   ---&gt;   二级引用
+
+3. &gt;&gt;&gt;xxx   ---&gt;   三级引用
+</code></pre>
+<h4 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h4><pre><code>1. ---   ---&gt;   分割线
+
+2. ***   ---&gt;   分割线
+</code></pre>
+<h4 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h4><pre><code>1. ![【图片名】](【图片地址】)
+</code></pre>
+<h4 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h4><pre><code>1. [【超链接名字】](【超链接地址】)
+</code></pre>
+<h4 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h4><pre><code>1. - 目录1   ---&gt;   无序列表
+   - 目录2
+   - 目录3
+
+2. 1.目录1   ---&gt;   有序列表                        
+   2.目录1
+   3.目录1
+</code></pre>
+]]></content>
+      <categories>
+        <category>笔记软件</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2022/03/08/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
