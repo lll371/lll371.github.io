@@ -705,6 +705,9 @@ footer {
   padding: 0 3px 30px 3px;
   font-family: BenderLight;
 }
+footer nobr {
+  line-height: 28px;
+}
 
 #logo {
   user-select: none;
@@ -841,6 +844,11 @@ footer {
   color: #2bf;
   font-weight: 900;
 }
+#post-info .control {
+  text-align: left;
+  display: inline-block;
+  width: 90px;
+}
 
 #post-source span {
   color: #fe2;
@@ -948,6 +956,75 @@ footer {
   width: 80%;
   max-width: 280px;
   padding: 0 20px;
+}
+
+#Valine {
+  color: #fff;
+  padding: 10px 0;
+}
+#Valine code {
+  font-family: "JetBrains Mono";
+}
+#Valine .vpanel .vwrap {
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: 0.3s;
+}
+#Valine .vpanel .vwrap:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #fe2;
+}
+#Valine .vpanel .vwrap .vheader .vinput {
+  border-bottom-style: solid;
+}
+#Valine .vpanel .vwrap .vheader .vinput:focus {
+  color: #2bf;
+  border-bottom-color: #fe2;
+}
+#Valine .vpanel .vwrap .vicon:hover {
+  background-color: unset;
+}
+#Valine .vpanel .vsubmit:hover {
+  color: #fe2;
+  border-color: #fe2;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#Valine .vcard .vnick {
+  color: #2bf;
+}
+#Valine .vcard .vnick:hover {
+  color: #000;
+}
+#Valine .vsys {
+  background-color: transparent;
+}
+#Valine .vmeta .vat {
+  color: #fe2;
+}
+#Valine .vcontent {
+  color: #c4c4c4;
+  border-left: #fe2 solid 3px;
+  padding-left: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: 0.3s;
+}
+#Valine .vcontent:hover {
+  border-color: #2bf;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#Valine .vcontent::before {
+  background: linear-gradient(180deg, rgba(26, 26, 26, 0), rgba(26, 26, 26, 0.9));
+}
+#Valine .vcontent::after {
+  background: rgba(26, 26, 26, 0.9);
+}
+#Valine .vcontent p {
+  color: #fff;
+  padding-bottom: 14px;
+}
+
+#veditor {
+  color: #fff;
+  font-family: "JetBrains Mono";
 }
 
 #toc-div .toc {
